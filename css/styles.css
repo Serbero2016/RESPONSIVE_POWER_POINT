@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+header nav ul li {
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+li:hover{
+    background-color: #fff;
+}
+
+header nav ul li a{
+    font-size: 1.5rem;
+}
+
+.contenedor {
+    box-sizing: border-box;
+}
+
+
+
+.contenedor  .title{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    color: chocolate;
+    box-shadow: 3PX 3PX 3px  black;
+}
+
+.contenedor main p{
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contenedor main h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: coral;
+    font-size: 2rem;
+    box-shadow: 4px 4px 4px black;
+}
+
+.contenedor .videos {
+    padding: 2rem 0.5rem;
+}
+
+.contenedor .videos iframe {
+      border-radius: 2rem;
+}
+
+
+
+.contenedor .videos .video1 {
+    box-shadow: 2rem  2rem 2rem black;
+    margin: 2rem 0.5rem;
+}
+
+
+
+
+.contenedor .videos .video2 {
+    box-shadow: 2rem  2rem 2rem black;
+    margin: 2rem 0.5rem;
+}
+
+
+section h4 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px  red;
+    font-size: 2rem;
+
+}
+
+
